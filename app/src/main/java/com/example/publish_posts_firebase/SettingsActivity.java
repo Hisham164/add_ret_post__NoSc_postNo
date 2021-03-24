@@ -30,12 +30,12 @@ public class SettingsActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
-                if (isChecked){
+               /* if (isChecked){
                     subscribePostNotification();//
                 }
                 else {
                     unsubscribePostNotification();//call to unsubscribe
-                }
+                }*/
             }
         });
     }
