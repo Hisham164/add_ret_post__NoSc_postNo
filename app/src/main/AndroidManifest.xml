@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Publish_posts_firebase">
-        <activity android:name=".AddPostActivity"></activity>
-        <activity android:name=".MainActivity">
+
+        <activity android:name=".AddPostActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
