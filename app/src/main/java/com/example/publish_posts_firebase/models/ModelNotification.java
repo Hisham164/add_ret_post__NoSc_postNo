@@ -3,6 +3,12 @@ package com.example.publish_posts_firebase.models;
 public class ModelNotification {
   String pId, timestamp, pUid, notification, sUid, sName, sEmail, sImage;
 
+  //empty constructor is required for firebase
+
+    public ModelNotification(){
+
+    }
+
     public ModelNotification(String pId, String timestamp, String pUid, String notification, String sUid, String sName, String sEmail, String sImage) {
         this.pId = pId;
         this.timestamp = timestamp;
