@@ -60,14 +60,14 @@
 
 
             </LinearLayout>
-
-            <ImageButton
-                android:id="@+id/starfavorit"
+<!--
+           <ImageButton
+                android:id="@+id/startfavorate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_start_favorit"
                 android:background="null"
-                />
+                />-->
 
         </LinearLayout>
 

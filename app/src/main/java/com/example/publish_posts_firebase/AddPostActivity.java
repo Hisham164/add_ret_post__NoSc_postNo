@@ -104,7 +104,7 @@ public class AddPostActivity extends AppCompatActivity {
         pd= new ProgressDialog(this);
 
         firebaseAuth = FirebaseAuth.getInstance();
-        checkUserStatus();
+//        checkUserStatus();
 
         actionBar.setSubtitle(email);
 
@@ -482,10 +482,10 @@ public class AddPostActivity extends AppCompatActivity {
             email = user.getEmail();
             uid = user.getUid();
         }
-        else {
+        /*else {
             startActivity(new Intent(this,MainActivity.class));
             finish();
-        }
+        }*/
     }
 
     @Override

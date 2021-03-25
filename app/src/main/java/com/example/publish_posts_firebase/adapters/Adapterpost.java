@@ -126,7 +126,7 @@ public class Adapterpost extends RecyclerView.Adapter<Adapterpost.Myholder> {
             pTitle = itemView.findViewById(R.id.ptitletv);
             pdescription = itemView.findViewById(R.id.pDescriptionEt);
             pliketv = itemView.findViewById(R.id.pliketv);
-            starfavorit = itemView.findViewById(R.id.starfavorit);
+           // starfavorit = itemView.findViewById(R.id.starfavorit);
 
 
         }
